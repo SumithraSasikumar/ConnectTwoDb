@@ -1,0 +1,80 @@
+#
+##Mysql Remote DB
+#spring.mysql2.datasource.url=jdbc:mysql://1.23.25.220:3306/demotest
+#spring.mysql2.datasource.username=root
+#spring.mysql2.datasource.password=novamysql@123
+#spring.mysql2.datasource.driverClassName=com.mysql.jdbc.Driver
+#spring.mysql2.datasource.jpa.database-platform = org.hibernate.dialect.MySQL5Dialect
+#spring.mysql2.datasource.jpa.hibernate.ddl-auto = update
+#
+## MySql DB configuration
+#spring.mysql.datasource.url=jdbc:mysql://localhost:3306/demo
+#spring.mysql.datasource.username=root
+#spring.mysql.datasource.password=root
+#spring.mysql.datasource.driverClassName=com.mysql.jdbc.Driver
+#spring.mysql.datasource.jpa.database-platform = org.hibernate.dialect.MySQL5Dialect
+#spring.mysql.datasource.jpa.hibernate.ddl-auto = update
+#
+## MySql DB configuration
+#spring.mysql3.datasource.url=jdbc:mysql://192.168.2.86:3306/demoserver12
+#spring.mysql3.datasource.username=root
+#spring.mysql3.datasource.password=nova
+#spring.mysql3.datasource.driverClassName=com.mysql.jdbc.Driver
+#spring.mysql3.datasource.jpa.database-platform = org.hibernate.dialect.MySQL5Dialect
+#spring.mysql3.datasource.jpa.hibernate.ddl-auto = update
+#
+#server.port=8002
+
+## postgres DB configuration
+#spring.postgres.datasource.url=jdbc:postgresql://localhost:5432/demo1
+#spring.postgres.datasource.username=maxima
+#spring.postgres.datasource.driverClassName=org.postgresql.Driver
+#spring.postgres.datasource.jpa.database-platform = org.hibernate.dialect.PostgreSQLDialect
+#spring.postgres.datasource.jpa.hibernate.ddl-auto =update
+#spring.postgres.datasource.jpa.show-sql=true
+#spring.jpa.properties.hibernate.temp.use_jdbc_metadata_defaults: false
+
+spring3: 
+  postgres: 
+    datasource: 
+      database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+      driverClassName: org.postgresql.Driver
+      hibernate.ddl-auto: update
+      jpa: ~
+      properties: 
+        hibernate: 
+          temp: 
+            use_jdbc_metadata_defaults: false
+            jdbc: 
+            lob: 
+              non_contextual_creation: true
+      url: "jdbc:postgresql://localhost:5432/demo1"
+      username: maxima
+
+       
+spring:
+ mysql2:
+  datasource: 
+    url: jdbc:mysql://1.23.25.220:3306/demotest
+    username: root
+    password: novamysql@123
+    driverClassName: com.mysql.jdbc.Driver
+    jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate.ddl-auto: update
+    
+spring2: 
+  mysql3:
+   datasource: 
+    url: jdbc:mysql://192.168.2.86:3306/demoserver12
+    username: root
+    password: nova
+    driverClassName: com.mysql.jdbc.Driver
+    jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate.ddl-auto: update
+    
+    
+server: 
+    port: 8002
+    

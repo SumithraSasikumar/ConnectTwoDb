@@ -1,0 +1,15 @@
+com/example/demo/YamlExampleApplication.class
+com/example/demoService/SystemService.class
+com/example/demoService/RemoteService.class
+META-INF/spring-configuration-metadata.json
+com/example/demoModels/MacData.class
+com/example/demoModels/SystemData.class
+com/example/demoModels/RemoteData.class
+com/example/demoDao/RemoteDao.class
+com/example/demoDao/SystemDao.class
+com/example/demoService/RemotePostgresService.class
+com/example/demoDao/RemotePostgresDao.class
+com/example/demo/Config.class
+com/example/demo/ControllerExample.class
+com/example/demo/ThirdConfig.class
+com/example/demo/SecondConfig.class

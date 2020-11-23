@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "spring.mysql2.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.example.demo.SecondConfig",
+      "sourceMethod": "public javax.sql.DataSource dataSource2() "
+    },
+    {
+      "name": "spring2.mysql3.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.example.demo.ThirdConfig",
+      "sourceMethod": "public javax.sql.DataSource dataSource3() "
+    },
+    {
+      "name": "spring3.postgres.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.example.demo.Config",
+      "sourceMethod": "public javax.sql.DataSource dataSource() "
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

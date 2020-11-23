@@ -1,0 +1,14 @@
+/home/nova/SpringBootDemo/DBDemoExample/src/main/java/com/example/demo/Config.java
+/home/nova/SpringBootDemo/DBDemoExample/src/main/java/com/example/demoDao/RemoteDao.java
+/home/nova/SpringBootDemo/DBDemoExample/src/main/java/com/example/demo/ControllerExample.java
+/home/nova/SpringBootDemo/DBDemoExample/src/main/java/com/example/demoDao/RemotePostgresDao.java
+/home/nova/SpringBootDemo/DBDemoExample/src/main/java/com/example/demo/YamlExampleApplication.java
+/home/nova/SpringBootDemo/DBDemoExample/src/main/java/com/example/demo/ThirdConfig.java
+/home/nova/SpringBootDemo/DBDemoExample/src/main/java/com/example/demoDao/SystemDao.java
+/home/nova/SpringBootDemo/DBDemoExample/src/main/java/com/example/demoModels/MacData.java
+/home/nova/SpringBootDemo/DBDemoExample/src/main/java/com/example/demoService/SystemService.java
+/home/nova/SpringBootDemo/DBDemoExample/src/main/java/com/example/demo/SecondConfig.java
+/home/nova/SpringBootDemo/DBDemoExample/src/main/java/com/example/demoModels/SystemData.java
+/home/nova/SpringBootDemo/DBDemoExample/src/main/java/com/example/demoService/RemotePostgresService.java
+/home/nova/SpringBootDemo/DBDemoExample/src/main/java/com/example/demoModels/RemoteData.java
+/home/nova/SpringBootDemo/DBDemoExample/src/main/java/com/example/demoService/RemoteService.java
